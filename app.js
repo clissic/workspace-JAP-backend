@@ -9,6 +9,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.json());
+app.use(cors());
 
 // Routers
 
@@ -17,9 +18,3 @@ app.use("/emercado-api", emercadoRouter);
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);
 });
-
-app.use(
-  cors({
-    origin: "*",
-  })
-);
