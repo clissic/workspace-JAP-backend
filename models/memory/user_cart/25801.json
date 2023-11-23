@@ -1,13 +1,13 @@
 [
   {
-    "id": "50924",
+    "id": "50921",
     "cantidad": 1,
     "producto": {
-      "id": "50924",
-      "name": "Peugeot 208",
-      "cost": 15200,
+      "id": "50921",
+      "name": "Chevrolet Onix Joy",
+      "cost": 13500,
       "currency": "USD",
-      "image": "img/prod50924_1.jpg"
+      "image": "img/prod50921_1.jpg"
     }
   }
 ]

@@ -21,7 +21,6 @@ const addToCart = async (cid, pid) => {
       cart[productInCartIndex].cantidad += 1;
     } else {
       const productFound = await emercadoModel.getProductById(pid);
-      console.log(productFound);
       if (productFound) {
         cart.push({
           id: pid,
