@@ -10,7 +10,7 @@ const signin = async (mail, password) => {
     );
     return userFound || false;
   } catch (error) {
-    console.log("Se rompió en signin (loginModel): " + error);
+    console.error("Se rompió en signin (loginModel): " + error);
     throw error;
   }
 };
