@@ -1,6 +1,14 @@
 [
     {
-        "username": "admin",
-        "password": "admin"
+        "mail": "admin",
+        "password": "admin",
+        "primerNombre": "",
+        "segundoNombre": "",
+        "primerApellido": "",
+        "segundoApellido": "",
+        "avatarImg": "",
+        "userTelefono": "",
+        "userPais": "",
+        "userCiudad": ""
     }
 ]

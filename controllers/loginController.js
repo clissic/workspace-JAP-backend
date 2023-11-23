@@ -3,14 +3,14 @@ const jwt = require("jsonwebtoken");
 const SECRET_KEY = "SECRET KEY";
 
 const signin = async (req, res) => {
-  const { username, password } = req.body;
+  const { mail, password } = req.body;
   try {
-    const user = await loginModel.signin(username, password);
+    const user = await loginModel.signin(mail, password);
     if (user) {
-      const token = jwt.sign({ username }, SECRET_KEY);
+      const token = jwt.sign({ mail }, SECRET_KEY);
       res.status(200).json({ token });
     } else {
-      res.status(401).json({ msg: "Username y/o password incorrectos" });
+      res.status(401).json({ msg: "Mail y/o password incorrectos" });
     }
   } catch (error) {
     console.log("Se rompió en signin (loginController): " + error);
