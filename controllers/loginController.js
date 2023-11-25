@@ -13,7 +13,7 @@ const signin = async (req, res) => {
       res.status(401).json({ msg: "Mail y/o password incorrectos" });
     }
   } catch (error) {
-    console.log("Se rompió en signin (loginController): " + error);
+    console.error("Se rompió en signin (loginController): " + error);
     res.status(500).json({ msg: "Se rompió en signin (loginController)" });
   }
 };

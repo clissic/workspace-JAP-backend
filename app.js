@@ -5,6 +5,7 @@ const cors = require("cors");
 
 const emercadoRouter = require("./routes/emercadoRoutes.js");
 const loginRouter = require("./routes/loginRoutes.js");
+const cartRouter = require("./routes/cartRoutes.js");
 
 const app = express();
 const port = 3000;
@@ -16,6 +17,7 @@ app.use(cors());
 
 app.use("/emercado-api", emercadoRouter);
 app.use("/login", loginRouter);
+app.use("/cart", cartRouter);
 
 app.listen(port, () => {
   console.log(`Servidor corriendo en http://localhost:${port}`);

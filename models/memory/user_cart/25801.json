@@ -1,13 +1,13 @@
-{
-    "user": 25801,
-    "articles": [
-        {
-            "id": 50924,
-            "name": "Peugeot 208",
-            "count": 1,
-            "unitCost": 15200,
-            "currency": "USD",
-            "image": "img/prod50924_1.jpg"
-        }
-    ]
-}
+[
+  {
+    "id": "50923",
+    "cantidad": 1,
+    "producto": {
+      "id": "50923",
+      "name": "Suzuki Celerio",
+      "cost": 12500,
+      "currency": "USD",
+      "image": "img/prod50923_1.jpg"
+    }
+  }
+]
