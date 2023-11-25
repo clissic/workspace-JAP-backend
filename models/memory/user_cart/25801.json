@@ -1,13 +1,13 @@
 [
   {
-    "id": "50921",
+    "id": "50923",
     "cantidad": 1,
     "producto": {
-      "id": "50921",
-      "name": "Chevrolet Onix Joy",
-      "cost": 13500,
+      "id": "50923",
+      "name": "Suzuki Celerio",
+      "cost": 12500,
       "currency": "USD",
-      "image": "img/prod50921_1.jpg"
+      "image": "img/prod50923_1.jpg"
     }
   }
 ]
